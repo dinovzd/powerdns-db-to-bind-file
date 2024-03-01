@@ -3,6 +3,8 @@ PHP script that scrapes the entire database and then generates a bind file for e
 
 Here are the variables you need to change.
 
-$pdns_db = [ 'host' => 'CHANGE ME', 'user' => 'CHANGE ME', 'pass' => 'CHANGE ME', 'name' => 'CHANGE ME' ];
-$zone_ns = [ 'CHANGE ME', 'CHANGE ME' ];
-$zone_adm = 'CHANGE ME';
+$pdns_db = ['host' => 'localhost', 'user' => 'pdns', 'pass' => 'pdns', 'name' => 'pdns'];
+
+$zone_ns = ['ns1.domain.tld', 'ns2.domain.tld'];
+
+$zone_adm = 'hostmaster.domain.tld';
