@@ -27,3 +27,4 @@ or
 $ php p2b.php
 ```
 
+Script creates a temporary directory called **tmp** on this location **/tmp** where resaults are stored.
